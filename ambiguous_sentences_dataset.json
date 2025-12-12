@@ -1,0 +1,723 @@
+[
+  {
+    "sentence": "The girl watched the boy with the telescope",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The girl had a telescope",
+      "The boy had a telescope"
+    ]
+  },
+  {
+    "sentence": "She values reading books more than her brother",
+    "ambiguity_type": "COMPARE",
+    "interpretations": [
+      "She values reading books more than she values her brother",
+      "She values reading books more than her brother values reading books"
+    ]
+  },
+  {
+    "sentence": "She values helping her mother more than her father",
+    "ambiguity_type": "COMPARE",
+    "interpretations": [
+      "She values helping her mother more than her father values helping her mother",
+      "She values helping her mother more than she values helping her father"
+    ]
+  },
+  {
+    "sentence": "The teacher likes helping students more than the principal",
+    "ambiguity_type": "COMPARE",
+    "interpretations": [
+      "The teacher prefers helping students more than the principal prefers helping students",
+      "The teacher prefers helping students more than helping the principal"
+    ]
+  },
+  {
+    "sentence": "The teacher likes helping students more than cleaning the whiteboard",
+    "ambiguity_type": "COMPARE",
+    "interpretations": [
+      "The teacher prefers helping students to cleaning the whiteboard",
+      "The teacher likes helping students more than the whiteboard-cleaning activity does"
+    ]
+  },
+  {
+    "sentence": "We enjoy meeting clients more than our competitors",
+    "ambiguity_type": "COMPARE",
+    "interpretations": [
+      "We enjoy meeting clients more than we enjoy meeting our competitors",
+      "We enjoy meeting clients more than our competitors"
+    ]
+  },
+  {
+    "sentence": "The old women and men gathered in the hall",
+    "ambiguity_type": "COORD",
+    "interpretations": [
+      "Old women and men gathered",
+      "Old women and men (not necessarily old) gathered"
+    ]
+  },
+  {
+    "sentence": "The chicken is ready to eat",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "The chicken is prepared/cooked and ready to be eaten",
+      "The chicken (as an animal) is ready to consume food"
+    ]
+  },
+  {
+    "sentence": "The dog is ready to eat",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "The dog is prepared/cooked and ready to be eaten",
+      "The dog (as an animal) is ready to consume food"
+    ]
+  },
+  {
+    "sentence": "The revolution is before us",
+    "ambiguity_type": "TEMPORAL",
+    "interpretations": [
+      "The revolution is in our future",
+      "The revolution is physically in front of us",
+      "The revolution is our responsibility"
+    ]
+  },
+  {
+    "sentence": "The meeting originally scheduled for next Wednesday has been moved forward two days",
+    "ambiguity_type": "TEMPORAL",
+    "interpretations": [
+      "The meeting is now next Monday",
+      "The meeting is now next Friday"
+    ]
+  },
+  {
+    "sentence": "When the police stopped the drivers, they were drunk",
+    "ambiguity_type": "PRONOUN",
+    "interpretations": [
+      "The drivers were drunk",
+      "The police were drunk"
+    ]
+  },
+  {
+    "sentence": "Sarah told Emily that she got the promotion",
+    "ambiguity_type": "PRONOUN",
+    "interpretations": [
+      "Sarah got the promotion",
+      "Emily got the promotion"
+    ]
+  },
+  {
+    "sentence": "I like visiting relatives more than my sister",
+    "ambiguity_type": "COMPARE",
+    "interpretations": [
+      "I like visiting relatives more than my sister likes visiting relatives",
+      "I like visiting relatives more than I like visiting my sister"
+    ]
+  },
+  {
+    "sentence": "He's more afraid of spiders than his wife",
+    "ambiguity_type": "COMPARE",
+    "interpretations": [
+      "He is more afraid of spiders than his wife is",
+      "He is more afraid of spiders than he is afraid of his wife"
+    ]
+  },
+  {
+    "sentence": "I saw her duck",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "I saw her lower her head",
+      "I saw a duck that belongs to her"
+    ]
+  },
+  {
+    "sentence": "The project deadline was pushed ahead by one week",
+    "ambiguity_type": "TEMPORAL",
+    "interpretations": [
+      "The deadline was made earlier",
+      "The deadline was delayed"
+    ]
+  },
+  {
+    "sentence": "The flight departure was set back three hours",
+    "ambiguity_type": "TEMPORAL",
+    "interpretations": [
+      "The departure was delayed three hours",
+      "The departure was moved to an earlier time"
+    ]
+  },
+  {
+    "sentence": "The love of God is powerful",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "God's love is powerful",
+      "People's love for God is powerful"
+    ]
+  },
+  {
+    "sentence": "The photographing of celebrities has become invasive",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "People photographing celebrities has become invasive",
+      "Celebrities photographing others has become invasive"
+    ]
+  },
+  {
+    "sentence": "Chocolate cakes and cookies were served",
+    "ambiguity_type": "COORD",
+    "interpretations": [
+      "Chocolate cakes and chocolate cookies were served (both are chocolate)",
+      "Chocolate cakes and cookies (of any flavor) were served"
+    ]
+  },
+  {
+    "sentence": "Red velvet cake and cookies were served",
+    "ambiguity_type": "COORD",
+    "interpretations": [
+      "Red velvet cakes and red velvet cookies were served (both are red velvet)",
+      "Red velvet cakes and cookies (of any flavor) were served"
+    ]
+  },
+  {
+    "sentence": "Entertaining guests can be exhausting",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "The act of entertaining guests can be exhausting",
+      "Guests who are entertaining can be exhausting"
+    ]
+  },
+  {
+    "sentence": "We moved the party up from Saturday",
+    "ambiguity_type": "TEMPORAL",
+    "interpretations": [
+      "The party is now earlier",
+      "The party now later"
+    ]
+  },
+  {
+    "sentence": "I respect my mentor more than my colleague",
+    "ambiguity_type": "COMPARE",
+    "interpretations": [
+      "I respect my mentor more than I respect my colleague",
+      "I respect my mentor more than my colleague respects my mentor"
+    ]
+  },
+  {
+    "sentence": "Call me a taxi",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "Summon a taxi for me",
+      "Refer to me as a taxi"
+    ]
+  },
+  {
+    "sentence": "Call me a bad driver",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "Phone/summon a bad driver for me",
+      "Refer to me as a bad driver"
+    ]
+  },
+  {
+    "sentence": "Flying planes can be dangerous",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "Piloting planes is dangerous",
+      "Planes that are flying can be dangerous"
+    ]
+  },
+  {
+    "sentence": "He fed her cat food",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "He fed food to her cat",
+      "He fed her (a person) some cat food"
+    ]
+  },
+  {
+    "sentence": "The peasants are revolting",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "The peasants are staging a revolt",
+      "The peasants are disgusting"
+    ]
+  },
+  {
+    "sentence": "Look at the dog with one eye",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "Look at the dog using one of your eyes",
+      "Look at the dog that has only one eye"
+    ]
+  },
+  {
+    "sentence": "I am glad I am a man, and so is Dakota",
+    "ambiguity_type": "PRONOUN",
+    "interpretations": [
+      "Dakota is also glad that I am a man",
+      "Dakota is also a man"
+    ]
+  },
+  {
+    "sentence": "The criticism of the professor was harsh",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "Criticism directed at the professor was harsh",
+      "The professor's criticism of others was harsh"
+    ]
+  },
+  {
+    "sentence": "Students who study rarely get bad grades",
+    "ambiguity_type": "SCOPE",
+    "interpretations": [
+      "Students who rarely study get bad grades",
+      "Students who study get bad grades rarely"
+    ]
+  },
+  {
+    "sentence": "She decided on the boat",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "She made her decision while on the boat",
+      "She chose the boat"
+    ]
+  },
+  {
+    "sentence": "We saw the Eiffel Tower flying to Paris",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "We saw the Eiffel Tower while we were flying to Paris",
+      "We saw the Eiffel Tower that was flying to Paris"
+    ]
+  },
+  {
+    "sentence": "They are hunting dogs",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "They are dogs used for hunting",
+      "They are hunting for dogs"
+    ]
+  },
+  {
+    "sentence": "They are hunting deer",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "They are deer used for hunting",
+      "They are hunting for deer"
+    ]
+  },
+  {
+    "sentence": "I saw the man with the binoculars",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "I used binoculars to see the man",
+      "I saw the man who had binoculars"
+    ]
+  },
+  {
+    "sentence": "The Mayor says the police must stop drinking",
+    "ambiguity_type": "PRONOUN",
+    "interpretations": [
+      "The police must stop consuming alcohol",
+      "The police must prevent others from drinking"
+    ]
+  },
+  {
+    "sentence": "He didn't leave because he was angry",
+    "ambiguity_type": "PRONOUN",
+    "interpretations": [
+      "He left but not because he was angry",
+      "He didn't leave; the reason is that he was angry"
+    ]
+  },
+  {
+    "sentence": "Two students read every book",
+    "ambiguity_type": "SCOPE",
+    "interpretations": [
+      "Two specific students read all the books",
+      "For every book, there are two students who read it"
+    ]
+  },
+  {
+    "sentence": "The shooting of the hunters was terrible",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "Someone shooting the hunters was terrible",
+      "The hunters doing the shooting was terrible"
+    ]
+  },
+  {
+    "sentence": "The shooting of the deer was terrible",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "Someone shooting the deer was terrible",
+      "The deer doing the shooting was terrible"
+    ]
+  },
+  {
+    "sentence": "John and Mary got married",
+    "ambiguity_type": "RECIPROCAL",
+    "interpretations": [
+      "John and Mary married each other",
+      "They each married someone (but not each other)"
+    ]
+  },
+  {
+    "sentence": "Katelyn and Diana got married",
+    "ambiguity_type": "RECIPROCAL",
+    "interpretations": [
+      "Katelyn and Diana married each other",
+      "They each married someone (but not each other)"
+    ]
+  },
+  {
+    "sentence": "All the students didn't pass the exam",
+    "ambiguity_type": "SCOPE",
+    "interpretations": [
+      "Not all students passed (some failed)",
+      "All students failed the exam"
+    ]
+  },
+  {
+    "sentence": "I didn't go to the store because I was tired",
+    "ambiguity_type": "CAUSAL",
+    "interpretations": [
+      "I went to the store but tiredness wasn't the reason",
+      "I stayed home because I was tired"
+    ]
+  },
+  {
+    "sentence": "She didn't call him back because she was busy",
+    "ambiguity_type": "CAUSAL",
+    "interpretations": [
+      "She called him back but not due to being busy",
+      "She didn't call him back; being busy was the reason"
+    ]
+  },
+  {
+    "sentence": "A doctor examined every patient",
+    "ambiguity_type": "SCOPE",
+    "interpretations": [
+      "One doctor examined all patients",
+      "For each patient, some doctor (possibly different) examined them"
+    ]
+  },
+  {
+    "sentence": "The discovery of the scientists changed everything",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "What the scientists discovered changed everything",
+      "Someone's discovery of the scientists changed everything"
+    ]
+  },
+  {
+    "sentence": "The painting of the artist is valuable",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "The painting done by the artist is valuable",
+      "The painting depicting the artist is valuable"
+    ]
+  },
+  {
+    "sentence": "A stolen painting was found by a tree",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "A stolen painting was found near a tree",
+      "A tree found a stolen painting"
+    ]
+  },
+  {
+    "sentence": "A stolen painting was found by a man",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "A stolen painting was found near a man",
+      "A man found a stolen painting"
+    ]
+  },
+  {
+    "sentence": "The shooting of the elk was dreadful",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "Someone shooting the elk was dreadful",
+      "The elk doing the shooting was dreadful"
+    ]
+  },
+  {
+    "sentence": "The discovery of the astronomers changed something",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "What the astronomers discovered changed something",
+      "Someone's discovery of the astronomers changed something"
+    ]
+  },
+  {
+    "sentence": "James and Will got divorced",
+    "ambiguity_type": "RECIPROCAL",
+    "interpretations": [
+      "James and Will divorced each other",
+      "They each divorced someone (but not each other)"
+    ]
+  },
+  {
+    "sentence": "Hannah and Jason got divorced",
+    "ambiguity_type": "RECIPROCAL",
+    "interpretations": [
+      "Hannah and Jason divorced each other",
+      "They each divorced someone (but not each other)"
+    ]
+  },
+  {
+    "sentence": "She saw John flying to Paris",
+    "ambiguity_type": "PRONOUN",
+    "interpretations": [
+      "She saw John while she was flying to Paris",
+      "She saw John while he was flying to Paris"
+    ]
+  },
+  {
+    "sentence": "He's been working since 12",
+    "ambiguity_type": "TEMPORAL",
+    "interpretations": [
+      "He has been working since the age of 12",
+      "He has been working since 12:00"
+    ]
+  },
+  {
+    "sentence": "She visited twice in January",
+    "ambiguity_type": "TEMPORAL",
+    "interpretations": [
+      "She made two visits in January",
+      "She visited on two separate Januarys"
+    ]
+  },
+  {
+    "sentence": "Stacy watched Joanna leave with tears in her eyes",
+    "ambiguity_type": "PRONOUN",
+    "interpretations": [
+      "Stacy had tears in her eyes while watching Joanna leave",
+      "Stacy watched Joanna leave with tears in her eyes"
+    ]
+  },
+  {
+    "sentence": "Visiting professors can be interesting",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "Professors who are visiting can be interesting",
+      "The act of visiting professors can be interesting"
+    ]
+  },
+  {
+    "sentence": "They fed her dog biscuits",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "They give biscuits to her dog",
+      "They gave her (a person) dog biscuits"
+    ]
+  },
+  {
+    "sentence": "I watched the race with my father",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "I observed the race while being with my father",
+      "I observed the race that involved my father"
+    ]
+  },
+  {
+    "sentence": "The prosecution of the lawyers was controversial",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "Lawyers prosecuting cases was controversial",
+      "Someone prosecuting the lawyers was controversial"
+    ]
+  },
+  {
+    "sentence": "The bill was passed by the house",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "The bill was passed by the House (legislative body)",
+      "The bill was handed/passed near a house (building)"
+    ]
+  },
+  {
+    "sentence": "Organic fruits and vegetables were sold",
+    "ambiguity_type": "COORD",
+    "interpretations": [
+      "Organic vegetables and organic fruits were sold",
+      "Organic vegetables and fruits (of any type) were sold"
+    ]
+  },
+  {
+    "sentence": "Blue shirts and pants were donated",
+    "ambiguity_type": "COORD",
+    "interpretations": [
+      "Blue shirts and blue pants were donated",
+      "Blue shirts and pants (of any color) were donated"
+    ]
+  },
+  {
+    "sentence": "I like baking bread more than cakes",
+    "ambiguity_type": "COMPARE",
+    "interpretations": [
+      "I like breaking bread more than I like baking cakes",
+      "I like baking bread more than I like cakes (not baking them)"
+    ]
+  },
+  {
+    "sentence": "Ten volunteers helped every family",
+    "ambiguity_type": "SCOPE",
+    "interpretations": [
+      "Ten specific volunteers helped all families",
+      "For each family, ten volunteers (possibly different) helped them"
+    ]
+  },
+  {
+    "sentence": "The recording of the musicians was excellent",
+    "ambiguity_type": "STRUCT",
+    "interpretations": [
+      "What the musicians recorded was excellent",
+      "Someone recording the musicians was excellent"
+    ]
+  },
+  {
+    "sentence": "They didn't cancel because it was sunny",
+    "ambiguity_type": "CAUSAL",
+    "interpretations": [
+      "They cancelled but the sun wasn't the reason",
+      "They didn't cancel; the sun was the reason"
+    ]
+  },
+  {
+    "sentence": "He has been running since 5",
+    "ambiguity_type": "TEMPORAL",
+    "interpretations": [
+      "He has been running since 5:00 (time)",
+      "He has been running since the age of 5"
+    ]
+  },
+  {
+    "sentence": "He has been teaching since 8",
+    "ambiguity_type": "TEMPORAL",
+    "interpretations": [
+      "He has been teaching since 8:00 (time)",
+      "He has been teaching since the age of 8"
+    ]
+  },
+  {
+    "sentence": "She can't bear children",
+    "ambiguity_type": "LEXICAL",
+    "interpretations": [
+      "She can't tolerate children",
+      "She can't give birth to children"
+    ]
+  },
+  {
+    "sentence": "The neighbors quarreled over the fence",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The neighbors quarreled with each other on opposite sides of the fence",
+      "The neighbors quarreled with each other about the fence"
+    ]
+  },
+  {
+    "sentence": "Maria painted the woman on the balcony",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "Maria painted a picture of the woman who was on the balcony",
+      "Maria was on the balcony when she painted the woman"
+    ]
+  },
+  {
+    "sentence": "The man hit the thief with the cane",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The man used a cane to hit the thief",
+      "The thief had a cane"
+    ]
+  },
+  {
+    "sentence": "The woman hit the man with the newspaper",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The woman used a newspaper to hit the man",
+      "The man had a newspaper"
+    ]
+  },
+  {
+    "sentence": "The man shot the model on the beach",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The model was shot (violence) on the beach",
+      "The model was photographed on the beach"
+    ]
+  },
+  {
+    "sentence": "Someone cleaned the table with the rag",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The rag was used for cleaning the table",
+      "The table came with a rag on it"
+    ]
+  },
+  {
+    "sentence": "The girl chased the boy on the bike",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The girl was on the bike",
+      "The boy was on the bike"
+    ]
+  },
+  {
+    "sentence": "The dog followed the man with the flashlight",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The dog had a flashlight",
+      "The man had a flashlight"
+    ]
+  },
+  {
+    "sentence": "The doctor examined the patient with gloves",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The doctor had gloves",
+      "The patient had gloves"
+    ]
+  },
+  {
+    "sentence": "The cat chased the mouse in the kitchen",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The chasing occurred in the kitchen",
+      "The mouse was in the kitchen"
+    ]
+  },
+  {
+    "sentence": "The student wrote the essay on the computer",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The student used the computer",
+      "The essay was about a computer"
+    ]
+  },
+  {
+    "sentence": "The horse followed the rider with the rope",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The rider had a rope",
+      "The horse had a rope"
+    ]
+  },
+  {
+    "sentence": "The boy kicked the ball near the school",
+    "ambiguity_type": "PP-ATTACH",
+    "interpretations": [
+      "The kicking happened near the school",
+      "The ball was near the school"
+    ]
+  },
+  {
+    "sentence": "Everyone didn't attend the meeting",
+    "ambiguity_type": "SCOPE",
+    "interpretations": [
+      "Not everyone attended (some were absent)",
+      "Everyone was absent from the meeting"
+    ]
+  }
+]
